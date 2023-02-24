@@ -1,6 +1,7 @@
 import { createContext, useState, useEffect } from "react";
 import { tasks as data } from "../data/tasks";
 
+// Context
 export const TaskContext = createContext();
 
 export function TaskContextProvider(props) {
